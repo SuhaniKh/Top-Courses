@@ -17,7 +17,7 @@ const Card = ({ newcourse, likedCourses, setLikedCourses }) => {
         
     }
     else{
-      setLikedCourses((prev) => [... prev, newcourse.id]);
+      setLikedCourses((prev) => [...prev, newcourse.id]);
       toast.success("Liked Successfully");
     }
 }
